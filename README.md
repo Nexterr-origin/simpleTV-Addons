@@ -7,7 +7,6 @@
 [![Lua][badge-lua]][Lua]
 [![License][badge-license]][License]
 
-
 ### Дополнения
 
 ---
@@ -26,12 +25,8 @@
 [simpleTV API]: http://iptv.gen12.net/dokuwiki/doku.php?id=mantis:simpletv:api "simpleTV API"
 [Lua]: https://www.lua.org/manual/5.1 "Lua 5.1"
 [License]: ../../blob/master/LICENSE "License GPL 3.0"
-[TVSources]: http://iptv.gen12.net/bugtracker/view.php?id=1614 "дополнение TVSources"
-[PM]: http://iptv.gen12.net/bugtracker/view.php?id=1485 "дополнение Password Manager"
 [simpleTV homepage]: http://iptv.gen12.net "домашняя страница"
 [simpleTV bugtracker]: http://iptv.gen12.net/bugtracker "багтрекер"
-
-
 
 [badge-yt]: https://img.shields.io/badge/%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82-YouTube-%232b2b2b?style=flat-square&labelColor=%23303f50 "скрипт YouTube"
 [badge-simpletvapi]: https://img.shields.io/badge/simpleTV-Lua%20API-%232b2b2b?style=flat-squar&labelColor=%23303f50 "simpleTV Lua API"
