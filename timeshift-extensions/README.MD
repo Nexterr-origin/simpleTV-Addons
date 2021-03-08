@@ -18,7 +18,6 @@
 - megogoTV
 - peersTV
 - telecola
-- TV+ HD
 - tvoetv
 - wink
 - yandex
