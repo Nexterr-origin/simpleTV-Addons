@@ -19,7 +19,7 @@
 
 ---
 ⚠ **Внимание!**
-###### - **Local Files (Открывать файлы)** не совместимо с дополнением _**[Hook Local Files](http://iptv.gen12.net/bugtracker/view.php?id=1343 "")**_
+###### - _**Local Files (Открывать файлы)**_ не совместимо с дополнением _**[Hook Local Files](http://iptv.gen12.net/bugtracker/view.php?id=1343 "")**_
 
 ---
 
