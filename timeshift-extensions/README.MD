@@ -17,7 +17,6 @@
 - limeHD
 - megogoTV
 - peersTV
-- telecola
 - tvoetv
 - wink
 - yandex
