@@ -19,13 +19,13 @@
 						local session = m_simpleTV.Http.New('Mozilla/5.0 (Windows NT 10.0; rv:86.0) Gecko/20100101 Firefox/86.0')
 							if not session then return end
 						m_simpleTV.Http.SetTimeout(session, 8000)
-						local offset = eventParams.params.offset / 1000
-						local url = string.format(decode64('aHR0cHM6Ly93d3cudHZwbHVzb25saW5lLnJ1L2dldHNpZ25lZGR2ci5waHA/ZHVyYXRpb249NjAwJnN0cmVhbT0lcyZ0aW1lPSVz'), id, math.floor(os.time() - offset))
+						local offset = math.floor(eventParams.params.offset / 1000)
+						local url = string.format(decode64('aHR0cHM6Ly93d3cudHZwbHVzb25saW5lLnJ1L2dldHNpZ25lZGR2ci5waHA/ZHVyYXRpb249NjAwJnN0cmVhbT0lcyZ0aW1lPSVz'), id, os.time() - offset)
 						local rc, answer = m_simpleTV.Http.Request(session, {url = url})
 						m_simpleTV.Http.Close(session)
 							if rc ~= 200 then return end
 						answer = answer:gsub('%c', '')
-						answer = answer:gsub('^(.+/).-(%..-)$', '%1timeshift_rel-' .. math.floor(offset) .. '%2')
+						answer = answer:gsub('^(.+/).-(%..-)$', '%1timeshift_rel-' .. offset .. '%2')
 					 return answer
 					end
 					eventParams.params.address = tvhd_url_archive() or eventParams.params.address
