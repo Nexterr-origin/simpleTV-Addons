@@ -2,7 +2,7 @@
  <a title="русский" href="../../"><img src="../../../simpleTV-images/blob/main/ru.png?raw=true" alt="русский" /> </a><strong ><sup><sub>RU</sub></sup></strong>
 </p>
 
-
+[![discussions][badge-discussions]][discussions]
 [![script YT][badge-yt]][YT]
 [![scripts][badge-scripts]][scripts]
 
@@ -33,6 +33,7 @@
 --->
 
 
+[discussions]: https://github.com/Nexterr-origin/Nexterr-origin/discussions "discussions"
 [YT]: ../../../simpleTV-YouTube "YouTube Script"
 [scripts]: ../../../simpleTV-Scripts "Scripts"
 [simpleTV API]: http://iptv.gen12.net/dokuwiki/doku.php?id=mantis:simpletv:api "simpleTV API"
@@ -41,6 +42,8 @@
 [simpleTV homepage]: http://iptv.gen12.net "simpleTV homepage"
 [simpleTV bugtracker]: http://iptv.gen12.net/bugtracker "simpleTV bugtracker"
 
+
+[badge-discussions]: https://img.shields.io/badge/💬-Discussions-%232b2b2b?style=flat-squar&labelColor=%232c68a8 "Discussions"
 [badge-yt]: https://img.shields.io/badge/YouTube%20Script-%232b2b2b?style=flat-square&labelColor=%232c68a8 "YouTube Script"
 [badge-simpletvapi]: https://img.shields.io/badge/simpleTV-Lua%20API-%232b2b2b?style=flat-squar&labelColor=%23303f50 "simpleTV Lua API"
 [badge-lua]: https://img.shields.io/badge/Lua-5.1-%232b2b2b?style=flat-square&labelColor=%23303f50 "Lua 5.1"
