@@ -1,4 +1,4 @@
--- расширение дополнения httptimeshift "tv+hd" http://www.tvplusonline.ru (15/3/21)
+-- расширение дополнения httptimeshift "tv+hd" http://www.tvplusonline.ru (20/3/21)
 -- Copyright © 2017-2021 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_tvhd(eventType, eventParams)
 		if eventType == 'StartProcessing' then
@@ -8,6 +8,7 @@
 			 return
 			end
 			if not eventParams.params.address:match('tvplusonline')
+				and not eventParams.params.address:match('tvplusstreaming')
 			then
 			 return
 			end
