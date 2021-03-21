@@ -24,6 +24,7 @@
 
 ---
 ⚠ **Внимание!**
+###### - не совместимо со сборкой (скин, портал) от _**[west_side](http://iptv.gen12.net/bugtracker/view.php?id=1733), [M24](https://vk.com/m24lg)**_
 ###### - _**Local Files (Открывать файлы)**_ не совместимо с дополнением _**[Hook Local Files](http://iptv.gen12.net/bugtracker/view.php?id=1343 "")**_
 
 ---
