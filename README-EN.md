@@ -1,5 +1,5 @@
 <p align="right">
- <a title="русский" href="../../"><img src="../../../simpleTV-images/blob/main/ru.png?raw=true" alt="русский" /> </a><strong ><sup><sub>RU</sub></sup></strong>
+ <a title="русский" href="https://github.githubassets.com/images/icons/emoji/unicode/1f1f7-1f1fa.png" height="24" alt="русский" /> </a>
 </p>
 
 [![discussions][badge-discussions]][discussions]
