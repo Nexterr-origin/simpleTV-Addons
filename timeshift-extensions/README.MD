@@ -9,20 +9,22 @@
 ---
 
 **для источников**
-- 24часаТВ
-- antifriz
-- bluepoint
-- edem
-- impulsTV
-- limeHD
-- megogoTV
-- peersTV
-- tvoetv
-- wink
-- yandex
-- персик
-- смотрёшка
-- TV+ HD
+название | сайт
+------------ | -------------
+24часаТВ | https://app.24h.tv
+antifriz | https://antifriz.tv
+bluepoint | https://bptv.info
+edem | https://ilook.tv
+impulsTV | http://impulstv.ru
+limeHD | https://limehd.tv
+megogoTV | https://megogo.ru
+peersTV | https://peers.tv
+tvoetv | https://tvoetv.in.ua
+wink | https://wink.rt.ru
+yandex | https://tv.yandex.ru
+персик | https://persik.by
+смотрёшка | https://smotreshka.tv
+TV+ HD | https://www.tvplusonline.ru
 
 ---
 
