@@ -14,18 +14,18 @@
 24часаТВ | https://app.24h.tv
 antifriz | https://antifriz.tv
 bluepoint | https://bptv.info
-edem/ILook | https://ilook.tv
-impulsTV | http://impulstv.ru
-limeHD | https://limehd.tv
-megogoTV | https://megogo.ru
-peersTV | https://peers.tv
+edem (ILook) | https://ilook.tv
+impuls TV | http://impulstv.ru
+lime HD | https://limehd.tv
+megogo TV | https://megogo.ru
+peers TV | https://peers.tv
 tvoetv | https://tvoetv.in.ua
 wink | https://wink.rt.ru
 yandex | https://tv.yandex.ru
 персик | https://persik.by
 смотрёшка | https://smotreshka.tv
 TV+ HD | https://www.tvplusonline.ru
-starnetmd | https://www.starnet.md
+starnet | https://www.starnet.md
 
 ---
 
