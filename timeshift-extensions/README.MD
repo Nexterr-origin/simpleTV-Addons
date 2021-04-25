@@ -14,7 +14,7 @@
 24часаТВ | https://app.24h.tv
 antifriz | https://antifriz.tv
 bluepoint | https://bptv.info
-edem | https://ilook.tv
+edem/ILook | https://ilook.tv
 impulsTV | http://impulstv.ru
 limeHD | https://limehd.tv
 megogoTV | https://megogo.ru
