@@ -22,13 +22,8 @@
 
 - unpack to appropriate folders
 
----
 
 <!---
-⚠ **Внимание!**
-###### - _**Local Files (Открывать файлы)**_ не совместимо с дополнением _**[Hook Local Files](http://iptv.gen12.net/bugtracker/view.php?id=1343 "")**_
-
----
 
 --->
 
