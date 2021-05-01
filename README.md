@@ -44,8 +44,6 @@ paramScriptForSkin | параметры видеоскриптов для ски
 ###### - рекомендуемая версия SimpleTV 0.5.0 b12.7.8 (vlc 3.0.12)
 ###### - устаревшие, неактуальные, несовместимые скрипты будут вызывать конфликты
 
----
-
 [discussions]: https://github.com/Nexterr-origin/Nexterr-origin/discussions "discussions"
 [YT]: ../../../simpleTV-YouTube "скрипт YouTube"
 [scripts]: ../../../simpleTV-Scripts "Скрипты"
