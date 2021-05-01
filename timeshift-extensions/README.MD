@@ -20,7 +20,6 @@ lime HD | https://limehd.tv
 megogo TV | https://megogo.ru
 peers TV | https://peers.tv
 tvoetv | https://tvoetv.in.ua
-wink | https://wink.rt.ru
 yandex | https://tv.yandex.ru
 персик | https://persik.by
 смотрёшка | https://smotreshka.tv
@@ -31,4 +30,4 @@ starnet | https://www.starnet.md
 ⚠ **Внимание!**
 ###### - рекомендуемая версия SimpleTV 0.5.0 b12.7.8 (vlc 3.0.12)
 ###### - устаревшие, неактуальные, несовместимые скрипты будут вызывать конфликты
----
+
