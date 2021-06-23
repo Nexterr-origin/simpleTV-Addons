@@ -24,7 +24,6 @@ yandex | https://tv.yandex.ru
 персик | https://persik.by
 смотрёшка | https://smotreshka.tv
 TV+ HD | https://www.tvplusonline.ru
-starnet | https://www.starnet.md
 RT | https://rt.ru
 
 <!---
