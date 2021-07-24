@@ -25,6 +25,7 @@ yandex | https://tv.yandex.ru
 смотрёшка | https://smotreshka.tv
 TV+ HD | https://www.tvplusonline.ru
 RT | https://rt.ru
+starNet | https://www.starnet.md
 
 <!---
 ⚠ **Внимание!**
