@@ -6,8 +6,9 @@
 [![script YT][badge-yt]][YT]
 [![scripts][badge-scripts]][scripts]
 
+<!---[![simpleTV bugtracker][badge-simpletvbugtracker]][simpleTV bugtracker]--->
+
 [![simpleTV homepage][badge-simpletvhomepage]][simpleTV homepage]
-[![simpleTV bugtracker][badge-simpletvbugtracker]][simpleTV bugtracker]
 [![simpleTV IPTV player API][badge-simpletvapi]][simpleTV API]
 [![Lua][badge-lua]][Lua]
 [![License][badge-license]][License]
