@@ -1,5 +1,5 @@
--- расширение дополнения httptimeshift - bluepoint (21/10/20)
--- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons 
+-- расширение дополнения httptimeshift - bluepoint (18/21/21)
+-- Copyright © 2017-2021 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_bluepoint(eventType, eventParams)
 		if eventType == 'StartProcessing' then
 			if not eventParams.params
@@ -7,7 +7,7 @@
 			then
 			 return
 			end
-			if not (eventParams.params.address:match('bluepointtv')
+			if not ((eventParams.params.address:match('bluepointtv') or eventParams.params.address:match('//98%.158%.107%.'))
 				and m_simpleTV.User
 				and m_simpleTV.User.bluepoint
 				and m_simpleTV.User.bluepoint.url_archive)
