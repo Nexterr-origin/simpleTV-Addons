@@ -19,9 +19,7 @@ impuls TV | http://impulstv.ru
 lime HD | https://limehd.tv
 megogo TV | https://megogo.ru
 peers TV | https://peers.tv
-tvoetv | https://tvoetv.in.ua
 yandex | https://tv.yandex.ru
-персик | https://persik.by
 смотрёшка | https://smotreshka.tv
 TV+ HD | https://www.tvplusonline.ru
 RT | https://rt.ru
