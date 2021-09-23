@@ -20,7 +20,6 @@ lime HD | https://limehd.tv
 megogo TV | https://megogo.ru
 peers TV | https://peers.tv
 yandex | https://tv.yandex.ru
-смотрёшка | https://smotreshka.tv
 TV+ HD | https://www.tvplusonline.ru
 RT | https://rt.ru
 starNet | https://www.starnet.md
