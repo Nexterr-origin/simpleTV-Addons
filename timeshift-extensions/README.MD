@@ -15,7 +15,6 @@
 antifriz | https://antifriz.tv
 bluepoint | https://bptv.info
 edem (ILook) | https://ilook.tv
-impuls TV | http://impulstv.ru
 lime HD | https://limehd.tv
 megogo TV | https://megogo.ru
 peers TV | https://peers.tv
@@ -26,7 +25,6 @@ starNet | https://www.starnet.md
 
 <!---
 ⚠ **Внимание!**
-###### - рекомендуемая версия SimpleTV 0.5.0 b12.7.8 (vlc 3.0.12)
-###### - устаревшие, неактуальные, несовместимые скрипты будут вызывать конфликты
+
 
 --->
