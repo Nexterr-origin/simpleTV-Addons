@@ -22,6 +22,7 @@ yandex | https://tv.yandex.ru
 TV+ HD | https://www.tvplusonline.ru
 RT | https://rt.ru
 starNet | https://www.starnet.md
+impuls TV | http://impulstv.ru
 
 <!---
 ⚠ **Внимание!**
