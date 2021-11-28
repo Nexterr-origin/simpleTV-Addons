@@ -7,7 +7,7 @@
 			then
 			 return
 			end
-			if not (eventParams.params.address:match('//[^.]+%.[^.]+%.[^/]+/iptv/%w+/%d+/index%.m3u8')
+			if not (eventParams.params.address:match('//[^.]+%.[^.]+%.[^/]+/iptv/[%u%d]+/%d+/index%.m3u8')
 				and (eventParams.params.rawM3UString:match('tvg%-rec=')
 					or eventParams.params.rawM3UString:match('catchup%-days=')))
 			then
