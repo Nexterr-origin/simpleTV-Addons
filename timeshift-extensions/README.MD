@@ -19,7 +19,6 @@ edem (ILook) | https://ilook.tv
 megogo TV | https://megogo.ru
 peers TV | https://peers.tv
 yandex | https://tv.yandex.ru
-TV+ HD | https://www.tvplusonline.ru
 RT | https://rt.ru
 impuls TV | http://impulstv.ru
 
