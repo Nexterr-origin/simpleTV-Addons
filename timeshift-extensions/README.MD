@@ -12,7 +12,6 @@
 название | сайт
 ------------ | -------------
 24часаТВ | https://app.24h.tv
-antifriz | https://antifriz.tv
 bluepoint | https://bptv.info
 lime HD | https://limehd.tv
 edem (ILook) | https://ilook.tv
