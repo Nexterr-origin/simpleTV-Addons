@@ -11,11 +11,9 @@
 **для источников**
 название | сайт
 ------------ | -------------
-24часаТВ | https://app.24h.tv
 bluepoint | https://bptv.info
 lime HD | https://limehd.tv
 edem (ILook) | https://ilook.tv
-megogo TV | https://megogo.ru
 peers TV | https://peers.tv
 yandex | https://tv.yandex.ru
 RT | https://rt.ru
@@ -24,6 +22,6 @@ impuls TV | http://impulstv.ru
 <!---
 ⚠ **Внимание!**
 
-
-
+24часаТВ | https://app.24h.tv
+megogo TV | https://megogo.ru
 --->
