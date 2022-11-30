@@ -18,6 +18,7 @@ edem (ILook) | https://ilook.tv
 peers TV | https://peers.tv
 RT | https://rt.ru
 impuls TV | http://impulstv.ru
+yandex | https://tv.yandex.ru
 
 <!---
 ⚠ **Внимание!**
