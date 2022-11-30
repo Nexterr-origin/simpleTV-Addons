@@ -18,12 +18,10 @@ edem (ILook) | https://ilook.tv
 peers TV | https://peers.tv
 RT | https://rt.ru
 impuls TV | http://impulstv.ru
-yandex | https://tv.yandex.ru
+yandex | https://hd.kinopoisk.ru
 
 <!---
 ⚠ **Внимание!**
 
-yandex | https://tv.yandex.ru
-24часаТВ | https://app.24h.tv
 megogo TV | https://megogo.ru
 --->
