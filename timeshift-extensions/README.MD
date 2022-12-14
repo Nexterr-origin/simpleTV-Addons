@@ -19,6 +19,7 @@ peers TV | https://peers.tv
 RT | https://rt.ru
 impuls TV | http://impulstv.ru
 yandex | https://hd.kinopoisk.ru
+antifriztv | https://antifriztv.com
 
 <!---
 ⚠ **Внимание!**
