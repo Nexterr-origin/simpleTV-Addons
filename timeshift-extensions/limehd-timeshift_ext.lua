@@ -1,5 +1,5 @@
--- расширение дополнения httptimeshift limeHD (21/10/20)
--- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons 
+-- расширение дополнения httptimeshift limeHD (4/1/23)
+-- Copyright © 2017-2023 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_limehd(eventType, eventParams)
 		if eventType == 'StartProcessing' then
 			if not eventParams.params
@@ -10,7 +10,8 @@
 			if not ((eventParams.params.address:match('limehd%.')
 				or eventParams.params.address:match('iptv2022'))
 				and m_simpleTV.User
-				and m_simpleTV.User.infolink)
+				and m_simpleTV.User.infolink
+				and m_simpleTV.User.infolink.url_archive)
 			then
 			 return
 			end
@@ -21,16 +22,15 @@
 				eventParams.params.rawM3UString = m_simpleTV.User.infolink.catchup
 			 return true
 			end
-			if eventParams.queryType == 'Start' then
+			if eventParams.queryType == 'Start'
+				or eventParams.queryType == 'GetRecordAddress'
+			then
 				eventParams.params.rawM3UString = m_simpleTV.User.infolink.catchup
 				if eventParams.params.offset > 0 then
-					eventParams.params.address = m_simpleTV.User.infolink.url_archive
+					local starttime = math.floor(os.time() - (eventParams.params.offset / 1000))
+					local len = os.time() - starttime
+					eventParams.params.address = m_simpleTV.User.infolink.url_archive .. 'index-' .. starttime .. '-' .. len .. '.m3u8'
 				end
-			 return true
-			end
-			if eventParams.queryType == 'GetRecordAddress' then
-				eventParams.params.address = m_simpleTV.User.infolink.url_archive
-				eventParams.params.rawM3UString = m_simpleTV.User.infolink.catchup
 			 return true
 			end
 		 return true
