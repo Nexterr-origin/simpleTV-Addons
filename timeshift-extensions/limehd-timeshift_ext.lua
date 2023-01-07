@@ -1,4 +1,4 @@
--- расширение дополнения httptimeshift limeHD (6/1/23)
+-- расширение дополнения httptimeshift limeHD (7/1/23)
 -- Copyright © 2017-2023 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_limehd(eventType, eventParams)
 		if eventType == 'StartProcessing' then
@@ -19,8 +19,8 @@
 				or eventParams.queryType == 'GetRecordAddress'
 			then
 				if eventParams.params.offset > 0 then
-					local starttime = math.floor(os.time() - (eventParams.params.offset / 1000))
-					local len = os.time() - starttime
+					local len = math.floor(eventParams.params.offset/1000)
+					local starttime = os.time() - len
 					eventParams.params.address = m_simpleTV.User.limehd.url_archive .. '/index-' .. starttime .. '-' .. len .. '.m3u8'
 				end
 			 return true
