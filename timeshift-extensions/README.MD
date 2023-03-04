@@ -12,7 +12,6 @@
 название | сайт
 ------------ | -------------
 24часаТВ | https://app.24h.tv
-bluepoint | https://bptv.info
 lime HD | https://limehd.tv
 edem (ILook) | https://ilook.tv
 peers TV | https://peers.tv
@@ -23,6 +22,6 @@ antifriztv | https://antifriztv.com
 
 <!---
 ⚠ **Внимание!**
-
+bluepoint | https://bptv.info
 megogo TV | https://megogo.ru
 --->
