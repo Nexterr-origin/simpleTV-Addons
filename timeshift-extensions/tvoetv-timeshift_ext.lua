@@ -1,5 +1,5 @@
--- расширение дополнения httptimeshift - tvoetv (4/5/22)
--- Copyright © 2017-2022 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
+-- расширение дополнения httptimeshift - tvoetv (19/3/23)
+-- Copyright © 2017-2023 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_tvoetv(eventType, eventParams)
 		if eventType == 'StartProcessing' then
 			if not eventParams.params
@@ -8,7 +8,7 @@
 			then
 			 return
 			end
-			if not eventParams.params.address:match('onlineott%.tv') -- tvoetv
+			if not eventParams.params.address:match('onlineott%.tv')
 				and not eventParams.params.address:match('%.wisp%.cat')
 				and not eventParams.params.rawM3UString:match('catchup')
 			then
@@ -26,8 +26,9 @@
 						if not raw then return end
 					local url = raw:match('Location: (.-)\n')
 						if not url then return end
-					local tt = 	math.floor(os.time() - (eventParams.params.offset / 1000))
-					eventParams.params.address = url:gsub('/video[^%.]-', '/video-' .. tt .. '-120')
+					local start = math.floor(os.time() - (eventParams.params.offset / 1000))
+					local len = math.floor(eventParams.params.offset / 1000 - 120)
+					eventParams.params.address = url:gsub('/video[^%.]-', '/video-' .. start .. '-'.. len)
 				end
 			 return true
 			end
