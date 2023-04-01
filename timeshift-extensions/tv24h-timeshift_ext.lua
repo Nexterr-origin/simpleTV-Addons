@@ -1,5 +1,5 @@
--- расширение дополнения httptimeshift - tv24h (18/11/22)
--- Copyright © 2017-2022 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
+-- расширение дополнения httptimeshift - tv24h (1/4/23)
+-- Copyright © 2017-2023 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_tv24h(eventType, eventParams)
 		if eventType == 'StartProcessing' then
 			if not eventParams.params
@@ -25,7 +25,10 @@
 						local url = m_simpleTV.User.tv24h.address .. '&ts=' .. offset
 						local rc, answer = m_simpleTV.Http.Request(session, {url = url})
 							if rc ~= 200 then return end
-					 return answer:match('"hls_mbr":"([^"]+)') or answer:match('"hls":"([^"]+)')
+						local retAdr = answer:match('"stream_info":"([^"]+)')
+							if not retAdr then return end
+						retAdr = retAdr:gsub('^https://', 'http://'):gsub('data.json', 'index.m3u8')
+					 return retAdr
 					end
 					local adr = tv24h_url_archive()
 						if not adr then
