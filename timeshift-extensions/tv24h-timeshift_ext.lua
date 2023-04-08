@@ -8,7 +8,8 @@
 			 return
 			end
 			if not ((eventParams.params.address:match('24h%.tv')
-							or eventParams.params.address:match('tv24h/%d'))
+							or eventParams.params.address:match('tv24h/%d')
+							or eventParams.params.address:match('195%.191%.208'))
 				and m_simpleTV.User
 				and m_simpleTV.User.tv24h
 				and m_simpleTV.User.tv24h.address)
@@ -27,7 +28,7 @@
 							if rc ~= 200 then return end
 						local retAdr = answer:match('"stream_info":"([^"]+)')
 							if not retAdr then return end
-						retAdr = retAdr:gsub('^https://', 'http://'):gsub('data.json', 'index.m3u8')
+						retAdr = retAdr:gsub('data.json', 'index.m3u8')
 					 return retAdr
 					end
 					local adr = tv24h_url_archive()
