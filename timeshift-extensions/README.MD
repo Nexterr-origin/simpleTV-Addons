@@ -1,12 +1,11 @@
----
 
-### ★ Расширения дополнения [**httptimeshift**](http://iptv.gen12.net/bugtracker/view.php?id=1675 "")
+### ★ Расширения дополнения "httptimeshift"
 
----
+<details>
+
 📌 **Установка**
-- поместить в папку _`..\luaScr\user\httptimeshift\extensions`_
 
----
+- поместить в папку _`..\luaScr\user\httptimeshift\extensions`_
 
 **для источников**
 название | сайт
@@ -20,8 +19,4 @@ impuls TV | http://impulstv.ru
 yandex | https://hd.kinopoisk.ru
 antifriztv | https://antifriztv.com
 
-<!---
-⚠ **Внимание!**
-bluepoint | https://bptv.info
-megogo TV | https://megogo.ru
---->
+</details>
