@@ -12,11 +12,8 @@
 [![Lua][badge-lua]][Lua]
 [![License][badge-license]][License]
 
----
-
 ### ★ Addons
-
----
+<details>
 
 📌 **Installation**
 
@@ -26,7 +23,7 @@
 <!---
 
 --->
-
+</details>
 
 [discussions]: https://github.com/Nexterr-origin/Nexterr-origin/discussions "discussions"
 [YT]: ../../../simpleTV-YouTube "YouTube Script"
