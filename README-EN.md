@@ -12,7 +12,8 @@
 [![Lua][badge-lua]][Lua]
 [![License][badge-license]][License]
 
-### ★ Addons
+### ★ <span id="a1">[Addons](#1 "")</span>
+
 <details>
 
 📌 **Installation**
