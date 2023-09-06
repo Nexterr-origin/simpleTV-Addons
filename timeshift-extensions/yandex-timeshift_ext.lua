@@ -1,5 +1,5 @@
--- расширение дополнения httptimeshift - yandex (1/12/22)
--- Copyright © 2017-2022 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
+-- расширение дополнения httptimeshift - yandex (7/9/23)
+-- Copyright © 2017-2023 Nexterr | https://github.com/Nexterr-origin/simpleTV-Addons
 	function httpTimeshift_yandex(eventType, eventParams)
 		if eventType == 'StartProcessing' then
 			if not eventParams.params
@@ -8,7 +8,7 @@
 			 return
 			end
 			if not eventParams.params.address:match('strm%.yandex%.ru/.-PARAMS=yandex_tv') then return end
-			if eventParams.queryType == 'Start' then
+			if eventParams.queryType == 'Start' or eventParams.queryType == 'GetRecordAddress' then
 				if eventParams.params.offset > 0 then
 					local endY = os.time() - 200
 					local startY = os.time() - (eventParams.params.offset / 1000)
