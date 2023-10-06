@@ -15,7 +15,7 @@
 lime HD | https://limehd.tv
 edem (ILook) | https://ilook.tv
 peers TV | https://peers.tv
-RT | https://rt.ru
+wink | https://wink.ru
 yandex | https://hd.kinopoisk.ru
 antifriztv | https://antifriztv.com
 
