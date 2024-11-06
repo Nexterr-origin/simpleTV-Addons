@@ -11,7 +11,6 @@
 **для источников**
 название | сайт
 ------------ | -------------
-24часаТВ | https://app.24h.tv
 lime HD | https://limehd.tv
 edem (ILook) | https://ilook.tv
 peers TV | https://peers.tv
